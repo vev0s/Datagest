@@ -1,0 +1,20 @@
+process.env.NODE_ENV = 'production';
+
+if(process.env.NODE_ENV !== 'production') {
+	menuTemplate.push({
+		label: 'Developper Tools',
+		submenu: [
+			{
+				label: 'Toggle Developper Tools',
+				accelerator: process.platform == 'darwin' ? 'Command+I' :
+				'Ctrl+I',
+				click(item, focusedWindow){
+					focusedWindow.toggleDevTools();
+				}
+			},
+			{
+				role: 'reload'
+			}
+		]
+	});
+}
