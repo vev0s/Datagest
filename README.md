@@ -1,7 +1,7 @@
 Datagest
 =
 
-Datagest est un petit logiciel qui doit permettre de gérer une base de donnée facilement et en quelques clics.
+Datagest est un petit logiciel qui doit permettre de gérer une base de donnée facilement et en quelques clics. Lorsque le développement aura bien avancé, vous aurez la possibilité de tester le logiciel en temps qu'executable Windows, Linux et Mac.
 
 Disclaimer
 =
